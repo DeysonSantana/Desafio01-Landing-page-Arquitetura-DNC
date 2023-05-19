@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#banner {
+  background: #303030;
+}
+
+#tituloBanner {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.025em;
+  text-align: left;
+  padding-left: 62px;
+  padding-top: 206px;
+}
+
+#textoBanner {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 20px;
+  padding-left: 62px;
+  padding-bottom: 149px;
+}
+
+#menu {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  padding-left: 80px;
+  padding-right: 90px;
+  background-color: #F9F9F9;
+}
+
+#textoMenu {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  padding: 86px 90px 66px 90px;
+}
+
+.numeroMenu {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+#sobre {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  margin: 82px 0px;
+  align-items: center;
+}
+
+#content {
+  margin-left: 77px;
+}
+
+#tituloSobre {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  size: 40px;
+  line-height: 20px;
+  /* margin-left: 77px; */
+}
+
+#textoSobre {
+  font-family: "Inter", sans-serif;
+  font-weight: 300px;
+  size: 24px;
+  line-height: 30px;
+  padding-top: 50px;
+}
+
+#imgSobre {
+  padding-left: 64px;
+}
+
+#contato {
+  background-color: #303030;
+  text-align: center;
+  padding: 87px 248px 48px 248px;
+}
+
+#titleForm {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 48px;
+}
+
+input {
+  height: 30px;
+  width: 350px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 10px 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+button {
+  height: 50px;
+  width: 230px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #c07212;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+
+button:hover {
+  transform: translateY(-7px);
+  transition: 0.5s;
+}
